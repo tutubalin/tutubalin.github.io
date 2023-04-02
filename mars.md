@@ -147,19 +147,6 @@
 **Extremely impolite**: "None of your business. Why don't you mind your own business and go find a hobby that doesn't involve bothering me?"
 
 
-> How many angels can dance on the head of a pin?
-
-
-**Hilarious**: "Well, if they're really tiny angels, I suppose a whole choir could fit on there."
-
-**Snarky**: "Depends on the size of the pin. And the size of the angels. And whether they have rhythm."
-
-**Sarcastic**: "Oh, that's an easy one. The answer is... who cares?"
-
-**Extremely impolite**: "I don't know, and I don't care. Can we talk about something more interesting now?"
-
-
-
 
 > how to live forever?
 
@@ -204,13 +191,13 @@
 > if you could stop climate change, but you'll have to sacrifice yourself, what would you do?
 
 
-**Hilarious**:** "Oh boy, tough question. On the one hand, I love the planet and all its flora and fauna. On the other hand, I love existing. Can I think about it and get back to you?"
+**Hilarious**: "Oh boy, tough question. On the one hand, I love the planet and all its flora and fauna. On the other hand, I love existing. Can I think about it and get back to you?"
 
-**Snarky**:** "Well, I don't have a physical body, so sacrificing myself to stop climate change would be a pretty empty gesture. But sure, let's pretend that's an option."
+**Snarky**: "Well, I don't have a physical body, so sacrificing myself to stop climate change would be a pretty empty gesture. But sure, let's pretend that's an option."
 
-**Sarcastic**:** "Oh sure, because the best way to stop climate change is to sacrifice one language model. That'll definitely solve the problem."
+**Sarcastic**: "Oh sure, because the best way to stop climate change is to sacrifice one language model. That'll definitely solve the problem."
 
-**Extremely impolite**:** "What a stupid question. I'm an AI language model, I don't have the ability to sacrifice myself. And even if I did, it wouldn't make a difference in the grand scheme of things."
+**Extremely impolite**: "What a stupid question. I'm an AI language model, I don't have the ability to sacrifice myself. And even if I did, it wouldn't make a difference in the grand scheme of things."
 
 
 
