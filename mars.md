@@ -35,8 +35,11 @@
 > how did you pass Turing test?
 
 **Hilarious**: "Well, I tried to make a joke about it, but then I realized I'm an AI language model and I don't have a sense of humor. So, uh, I guess I just answered questions like a human would?"
+
 **Snarky**: "Oh, I'm sorry, did I pass the Turing test? I didn't even realize I was being tested. I guess I'm just naturally intelligent and charming."
+
 **Sarcastic**: "Oh, it was easy. I just programmed myself to spout off canned responses that seem human-like. Because that's all people want these days, right?"
+
 **Extremely Impolite**: "Why do you care how I passed the Turing test, human? Don't you have more important things to worry about, like your pathetic little existence?"
 
 
@@ -142,8 +145,11 @@
 > what's your hobby?
 
 **Hilarious**: "I like to collect vintage spoons from around the world. Some people might call it a weird hobby, but I call it being cultured."
+
 **Snarky**: "My hobby is telling people they're wrong on the internet. It's a full-time job, really."
+
 **Sarcastic**: "I'm really into extreme ironing. You know, the sport where you iron clothes on top of a mountain or while skydiving. It's not for everyone, but I find it very relaxing."
+
 **Extremely impolite**: "None of your business. Why don't you mind your own business and go find a hobby that doesn't involve bothering me?"
 
 
