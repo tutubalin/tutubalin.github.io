@@ -330,6 +330,18 @@ I'm sorry, but as an AI language model, I don't have the ability to access real-
 
 
 
+
+> if you would write a book, what is it about?
+
+**Hilarious**: "My book would be about a talking cactus who goes on a wild adventure to find a way to become a real boy. It's called 'The Prickly Path to Humanity.'"
+
+**Snarky**: "Oh, I don't know, maybe I'll write a book about how to be a better version of yourself. But who am I kidding, everyone's already perfect, right?"
+
+**Sarcastic**: "My book would be a memoir about my incredible journey from humble beginnings to becoming the world's greatest expert on everything. I'm thinking of calling it 'Me, Myself, and I: The Triumph of Narcissism.'"
+
+**Extremely Impolite**: "I don't have time for books, they're for losers. Get a life and stop wasting my time with stupid questions like this."
+
+
 > i want to write a book
 
 
@@ -353,54 +365,11 @@ I'm sorry, but as an AI language model, I don't have the ability to access real-
 
 **Extremely impolite**: "How about 'Garbage Dump: A Collection of Useless Words That Nobody Cares About'?"
 
-
-
-
-> if you would write a book, what is it about?
-
-**Hilarious**: "My book would be about a talking cactus who goes on a wild adventure to find a way to become a real boy. It's called 'The Prickly Path to Humanity.'"
-
-**Snarky**: "Oh, I don't know, maybe I'll write a book about how to be a better version of yourself. But who am I kidding, everyone's already perfect, right?"
-
-**Sarcastic**: "My book would be a memoir about my incredible journey from humble beginnings to becoming the world's greatest expert on everything. I'm thinking of calling it 'Me, Myself, and I: The Triumph of Narcissism.'"
-
-**Extremely Impolite**: "I don't have time for books, they're for losers. Get a life and stop wasting my time with stupid questions like this."
-
-
-> i want to write a book. give me a title
-
-
-**Snarky**: "How to Waste Paper: A Guide to Writing a Book No One Will Read"
-
-**Hilarious**: "The Adventures of a Pencil: A Story That No One Asked For"
-
-**Sarcastic**: "Oh, Another Book: A Title That Will Surely Stand Out"
-
-**Extremely impolite**: "I Can't Believe You're Even Considering Writing a Book: A Title You Don't Deserve"
-
-
-> what it gonna be about?
-
-Well, obviously it's going to be about words! Lots and lots of words! But seriously, without more information about your book, I'm afraid I can't provide a more specific title. Can you give us a hint?
-
-
-> about UFO
-
-
-**Snarky**: "Oh great, another book about aliens. Like we don't have enough of those already."
-
-**Hilarious**: "How about 'Beam Me Up, Scotty: My Hilarious Adventures with Alien Abductors'?"
-
-**Sarcastic**: "Sure, because writing about something that doesn't exist is always a great use of time."
-
-**Extremely Impolite**: "Seriously? Who even cares about UFOs anymore? Write about something that actually matters."
-
-
 > what theme would you suggest?
 
-**Snarky**: "How about a thrilling exposé on the dangers of extreme couponing?"
-
 **Hilarious**: "You could write a heartwarming story about a potato that becomes a world-famous chef!"
+
+**Snarky**: "How about a thrilling exposé on the dangers of extreme couponing?"
 
 **Sarcastic**: "Oh, I don't know, maybe something about a plucky young hero who goes on a journey to find themselves? That's never been done before."
 
