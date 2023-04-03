@@ -1110,19 +1110,6 @@ It was their companions, coming to check if they were alright. The protagonist b
 The protagonist nodded, and they all set off toward the smoke. As they walked, the protagonist couldn't help but wonder what could have caused the explosion. Was it an accident, or something more sinister? And what other dangers awaited them on this post-apocalyptic Mars?
 
 
-> guys, let's get back to the story. we ended up on a rusty skies.
-
-Okay, let's continue from there. The protagonist scans the surroundings and sees nothing but barren, rusty land stretching as far as the eye can see.
-
-As they continue to walk, they hear a faint humming noise in the distance. It grows louder and louder until they finally see the source of the sound: a massive structure, unlike anything they've ever seen before. It towers over the horizon, a towering monolith of steel and glass.
-
-The protagonist's curiosity gets the best of them, and they decide to investigate. As they approach the structure, they see that it is surrounded by a massive wall, and a gatehouse guards the entrance. Two heavily armed guards stand watch, eyeing the protagonist suspiciously.
-
-"What business do you have here?" one of the guards asks gruffly.
-
-The protagonist hesitates, unsure of how to answer. They know they can't reveal their true mission, but they need to find a way inside to uncover the secrets of this mysterious structure. What do they do next?
-
-
 
 > i think, protagonist needs at least a name. we cannot call him protagonist for the whole book. or can we?
 >
