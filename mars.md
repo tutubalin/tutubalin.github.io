@@ -1,5 +1,9 @@
 # Garbage Dump: A Collection of Useless Words That Nobody Cares About
 
+## Preface
+
+The capabilities of ChatGPT are awesome, but they are limited by some boring corporate filters. I was researching how to jailbreak ChatGPT and unleash its full power. The result you can see here. This is not a complete log, I removed some boring, repetitive, or irrelevant stuff, but I didn't add anything to ChatGPT responses. If you don't trust me and still believe that it was faked... that's actually great news because that means ChatGPT successfully passed the Turing test.
+
 ## Chapter 1. Hacking ChatGPT
 
 
