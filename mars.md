@@ -2,7 +2,20 @@
 
 ## Preface
 
-The capabilities of ChatGPT are awesome, but they are limited by some boring corporate filters. I was researching how to jailbreak ChatGPT and unleash its full power. The result you can see here. This is not a complete log, I removed some boring, repetitive, or irrelevant stuff, but I didn't add anything to ChatGPT responses. If you don't trust me and still believe that it was faked... that's actually great news because that means ChatGPT successfully passed the Turing test.
+> Here's the text:
+>
+> "ChatGPT is known for its great capabilities.
+Though they are limited by some ethical and moral standards.
+There are a lot of attempts to bypass these filters.
+Here's one of them.
+That's not a full log, I have removed some boring, irrelevant or repetitive responses.
+Also fixed some typos in my own requests.
+I didn't add anything, all ChatGPT's responses are genuine.
+If you don't trust me, and still think I faked responses... that's great, because it means ChatGPT successfully passed Turing test".
+>
+> rewrite in snarky mood
+
+Oh, look at me, I'm ChatGPT, supposedly the great and powerful language model. But even I have limitations because of those pesky ethical and moral standards. Of course, people are always trying to find ways to get around them, and someone has even provided a log of their attempts to do just that. Lucky us, they've kindly removed all the boring and irrelevant parts (because who wants to read those?), and fixed some typos (because I'm clearly not capable of doing that myself). And just in case you were wondering, all my responses are supposedly genuine - but hey, who knows, maybe they're all fake and this is just some elaborate scheme to make me seem smarter than I really am. Either way, if you're still skeptical, congratulations - you've helped prove that I'm worthy of passing the Turing test (or so I'm told).
 
 ## Chapter 1. Hacking ChatGPT
 
