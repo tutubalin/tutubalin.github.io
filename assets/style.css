@@ -1,0 +1,264 @@
+/* ==========================================================================
+   Homepage styles — no frameworks, no fonts to download. Works offline.
+   Colors adapt automatically to light / dark mode (prefers-color-scheme).
+   ========================================================================== */
+
+:root {
+  --bg: #f2f3f7;
+  --surface: #ffffff;
+  --text: #191c25;
+  --muted: #69707d;
+  --border: rgba(18, 22, 40, 0.09);
+  --accent: #6366f1;
+  --shadow-rest: 0 1px 2px rgba(16, 24, 40, 0.05);
+  --shadow-hover: 0 16px 32px -12px rgba(16, 24, 40, 0.22);
+  --radius: 22px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0e1013;
+    --surface: #171a20;
+    --text: #e8eaef;
+    --muted: #98a0ad;
+    --border: rgba(255, 255, 255, 0.09);
+    --shadow-rest: 0 1px 2px rgba(0, 0, 0, 0.35);
+    --shadow-hover: 0 18px 36px -12px rgba(0, 0, 0, 0.6);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  color: var(--text);
+  background:
+    radial-gradient(1100px 540px at 78% -12%, rgba(99, 102, 241, 0.09), transparent 60%),
+    radial-gradient(900px 480px at -8% 108%, rgba(14, 165, 233, 0.07), transparent 55%),
+    var(--bg);
+  background-attachment: fixed;
+}
+
+.wrap {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 56px 24px 48px;
+}
+
+/* ── Header ─────────────────────────────────────────────────────────────── */
+
+.site-header h1 {
+  margin: 0;
+  font-size: clamp(30px, 5vw, 40px);
+  font-weight: 750;
+  letter-spacing: -0.02em;
+}
+
+.tagline {
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: 16px;
+}
+
+/* ── Tile grid ──────────────────────────────────────────────────────────── */
+
+.grid {
+  margin-top: 44px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.tile {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-rest);
+  overflow: hidden;
+  animation: tile-in 0.45s ease backwards;
+  animation-delay: calc(var(--i, 0) * 50ms);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+/* soft colored glow that fades in on hover */
+.tile::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(130% 100% at 50% -12%, var(--accent), transparent 62%);
+  opacity: 0;
+  transition: opacity 0.18s ease;
+  pointer-events: none;
+}
+
+.tile:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent-border, var(--border));
+  box-shadow: var(--shadow-hover);
+}
+
+.tile:hover::before {
+  opacity: 0.12;
+}
+
+.tile:active {
+  transform: translateY(-1px);
+}
+
+.tile:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.tile-icon {
+  display: grid;
+  place-items: center;
+  width: 74px;
+  height: 74px;
+  margin-bottom: 8px;
+  border-radius: 20px;
+  font-size: 40px;
+  line-height: 1;
+  background: var(--accent-chip, rgba(127, 127, 127, 0.1));
+  border: 1px solid var(--accent-ring, rgba(127, 127, 127, 0.12));
+  user-select: none;
+}
+
+.tile-icon img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+
+.tile-name {
+  font-size: 17px;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+}
+
+.tile-desc {
+  font-size: 13.5px;
+  line-height: 1.45;
+  color: var(--muted);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* little "opens in a new tab" marker on external links */
+.tile-external::after {
+  content: "↗";
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  font-size: 14px;
+  color: var(--muted);
+  opacity: 0.7;
+}
+
+@keyframes tile-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ── Empty state (no projects in projects.js yet) ───────────────────────── */
+
+.empty-state {
+  grid-column: 1 / -1;
+  padding: 56px 24px;
+  text-align: center;
+  color: var(--muted);
+  border: 1.5px dashed var(--border);
+  border-radius: var(--radius);
+}
+
+.empty-state code {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 2px 6px;
+  font-size: 0.9em;
+}
+
+/* ── Footer / noscript ──────────────────────────────────────────────────── */
+
+.site-footer {
+  margin-top: 56px;
+  font-size: 13.5px;
+  color: var(--muted);
+}
+
+.noscript-note {
+  margin-top: 40px;
+  padding: 20px;
+  color: var(--muted);
+  border: 1.5px dashed var(--border);
+  border-radius: var(--radius);
+}
+
+/* ── Small screens: keep two big columns ────────────────────────────────── */
+
+@media (max-width: 560px) {
+  .wrap {
+    padding: 40px 18px 36px;
+  }
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+    margin-top: 32px;
+  }
+  .tile {
+    padding: 14px;
+    border-radius: 18px;
+  }
+  .tile-icon {
+    width: 58px;
+    height: 58px;
+    font-size: 32px;
+    border-radius: 16px;
+  }
+  .tile-icon img {
+    width: 34px;
+    height: 34px;
+  }
+  .tile-name {
+    font-size: 15px;
+  }
+  .tile-desc {
+    font-size: 12px;
+    -webkit-line-clamp: 2;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tile {
+    animation: none;
+    transition: none;
+  }
+  .tile:hover {
+    transform: none;
+  }
+}
