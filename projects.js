@@ -27,28 +27,20 @@ const SITE = {
 const PROJECTS = [
 
   {
-    name: "Demo Project",
-    description: "A sample page that shows what a project folder looks like.",
-    url: "demo/",
-    icon: "🚀",
-    color: "#6366f1",
-  },
-
-  {
-    name: "External Link",
-    description: "Tiles can also link anywhere on the web. Delete this one.",
-    url: "https://github.com/",
-    icon: "🔗",
-    color: "#0ea5e9",
-  },
-
-  {
     name: "A number of Pi",
     description: "Script that calculate Pi and looks like Pi at the same time",
     url: "pi/",
     icon: "𝜋",              // or "assets/icons/my-icon.svg"
     color: "#10b981",
   },
+
+  {
+    name: "Flux.2 tutorial",
+    description: "AI agent wrote (with my help) a nice guide how Flux.2 actually works inside",
+    url: "flux/",
+    icon: "🖼️",              // or "assets/icons/my-icon.svg"
+    color: "#e9c826",
+  },  
 
   // ── Add your projects below ──────────────────────────────────────────────
   // {
