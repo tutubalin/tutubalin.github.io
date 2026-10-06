@@ -5,8 +5,12 @@
   "use strict";
 
   var grid = document.getElementById("grid");
-  var site = window.SITE || {};
-  var projects = window.PROJECTS || [];
+
+  /* Top-level const/let in a separate <script> does NOT attach to `window`,
+     so read the globals as bare identifiers. `typeof` guards keep the page
+     working (with an empty state) if projects.js ever fails to load. */
+  var site = typeof SITE !== "undefined" ? SITE : (window.SITE || {});
+  var projects = typeof PROJECTS !== "undefined" ? PROJECTS : (window.PROJECTS || []);
 
   /* header / footer text from projects.js */
   document.title = site.title || document.title;
