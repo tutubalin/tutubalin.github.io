@@ -42,12 +42,11 @@ const PROJECTS = [
     color: "#e9c826",
   },  
 
-  // ── Add your projects below ──────────────────────────────────────────────
-  // {
-  //   name: "My Project",
-  //   description: "What it does, in one short line.",
-  //   url: "my-project/",
-  //   icon: "🎨",              // or "assets/icons/my-icon.svg"
-  //   color: "#10b981",
-  // },
+  {
+    name: "Sample generator",
+    description: "Simple audio sample generator.",
+    url: "samples/",
+    icon: "🎶",              // or "assets/icons/my-icon.svg"
+    color: "#5c52c8",
+  },
 ];

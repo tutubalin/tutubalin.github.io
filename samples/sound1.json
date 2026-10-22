@@ -1,0 +1,198 @@
+{
+  "version": 1,
+  "name": "SampleForge patch",
+  "note": {
+    "midi": 64
+  },
+  "transport": {
+    "loop": false,
+    "volume": 0.84
+  },
+  "voice": {
+    "unison": 1,
+    "spread": 12,
+    "stereo": true,
+    "autoTrim": true
+  },
+  "sample": {
+    "sampleRate": 44100,
+    "duration": 1.2,
+    "bitDepth": 16,
+    "mono": false,
+    "normalize": true,
+    "peak": 0.98,
+    "fadeIn": 1,
+    "fadeOut": 5,
+    "tail": 0.06,
+    "filename": "sampleforge"
+  },
+  "harmonics": {
+    "count": 8,
+    "normalize": "peak",
+    "phaseBase": "zero",
+    "seed": 1337,
+    "antiAlias": true,
+    "drawn": false,
+    "rules": [
+      {
+        "id": "rule-2wmktsvg8",
+        "enabled": true,
+        "amp": "odd(n)",
+        "mode": "set",
+        "amount": 1,
+        "phase": "",
+        "phaseMode": "add"
+      }
+    ],
+    "overrides": {
+      "amp": [
+        {
+          "n": 3,
+          "v": 0.6441
+        },
+        {
+          "n": 5,
+          "v": 0.2966
+        },
+        {
+          "n": 6,
+          "v": 0.5847
+        },
+        {
+          "n": 7,
+          "v": 0.822
+        }
+      ],
+      "phase": []
+    }
+  },
+  "envelopes": {
+    "amp": {
+      "enabled": true,
+      "points": [
+        {
+          "t": 0,
+          "v": 0,
+          "c": -0.31081581115722656,
+          "hold": false
+        },
+        {
+          "t": 0.1,
+          "v": 0.6000000000000001,
+          "c": 0.45,
+          "hold": false
+        },
+        {
+          "t": 0.15,
+          "v": 0.8,
+          "c": 0.45,
+          "hold": false
+        },
+        {
+          "t": 0.225,
+          "v": 0.55,
+          "c": 0.45,
+          "hold": false
+        },
+        {
+          "t": 0.3,
+          "v": 0.62,
+          "c": -0.45,
+          "hold": false
+        },
+        {
+          "t": 0.425,
+          "v": 0.75,
+          "c": -0.45,
+          "hold": false
+        },
+        {
+          "t": 0.575,
+          "v": 0.15000000000000002,
+          "c": -0.45,
+          "hold": false
+        },
+        {
+          "t": 0.625,
+          "v": 0.30000000000000004,
+          "c": 1,
+          "hold": false
+        },
+        {
+          "t": 0.725,
+          "v": 0.25,
+          "c": 1,
+          "hold": false
+        },
+        {
+          "t": 0.85,
+          "v": 0.4,
+          "c": 1,
+          "hold": false
+        },
+        {
+          "t": 1,
+          "v": 0,
+          "c": -0.5,
+          "hold": false
+        }
+      ]
+    },
+    "pitch": {
+      "enabled": false,
+      "depth": 12,
+      "points": [
+        {
+          "t": 0,
+          "v": 0,
+          "c": 0,
+          "hold": false
+        },
+        {
+          "t": 1,
+          "v": 0,
+          "c": 0,
+          "hold": false
+        }
+      ]
+    },
+    "filter": {
+      "enabled": false,
+      "depth": 4,
+      "points": [
+        {
+          "t": 0,
+          "v": 0.8,
+          "c": 0.4,
+          "hold": false
+        },
+        {
+          "t": 0.4,
+          "v": 0,
+          "c": -0.5,
+          "hold": false
+        },
+        {
+          "t": 1,
+          "v": -0.3,
+          "c": -0.3,
+          "hold": false
+        }
+      ]
+    }
+  },
+  "filter": {
+    "enabled": false,
+    "type": "lowpass",
+    "cutoff": 4200,
+    "q": 1
+  },
+  "ui": {
+    "envTab": "amp",
+    "waveTool": "draw",
+    "showPhase": true,
+    "snap": true,
+    "mirror": false,
+    "keyRoot": 48
+  }
+}
